@@ -81,6 +81,7 @@ Throughout this module, students will work with a partner to build a full-stack 
 ### Module 4: Final Projects (Classes 16-20)
 
 In teams, students create a full-stack web application that demonstrates command of all of the primary concepts discussed in this course. Overall, the application should make API calls, have dynamic functionality, and display a well-factored full-stack architecture. You act as a guide and support system for students as many project groups hit the occasional roadblocks and need assistance throughout the week. Otherwise, groups should be generally be self-managing. They will need to have proper Agile processes in place in order to keep their project in scope and delivered on time. 
+
 ---
 
 <a id="grading"></a>
