@@ -101,7 +101,7 @@ In teams, students create a full-stack web application that demonstrates command
 
 ##### Quizzes
 
-- Course quizzes (one per week, published on Friday afternoon to be completed over the subsequent weekend) are administered through Canvas.
+- Course quizzes (one per week for weeks 1 - 6) are administered through Canvas.
 
 ##### One On Ones
 
