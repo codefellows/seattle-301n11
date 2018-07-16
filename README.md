@@ -119,6 +119,6 @@ In teams, students create a full-stack web application that demonstrates command
 <a id="studentsetup"></a>
 ## Student Setup & Lab Workflow
 
-The README for the first lab assignment has detailed instructions for students in setting up their local directories on their laptops and also instructions in pair-programming process.
+The README files for Lab 00 assignments has detailed instructions for students in setting up their local directories on their laptops. Lab 01 README has further instructions in pair-programming process.
 
 [-top-](#top)
