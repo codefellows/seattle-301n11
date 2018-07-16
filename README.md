@@ -57,51 +57,30 @@ In weeks 5 and 6, we will review the feature tasks and user stories for the lab 
 ---
 
 <a id="weeklyoverviews"></a>
-## Weekly Overviews
+## Module Overviews
 
-### Weeks 1 and 2: View
+### Module 1: The Front End (Classes 1 - 5)
 
 ***The focus of the View module is understanding and constructing the view layer of a basic MVC web application.***
 
 The View module begins in Class 1 with an introduction to mobile-first design and  responsive development principles, and includes the fundamentals of modular CSS, SMACSS, the box model, positioning, layouts, media queries, and design.  In Class 2, using jQuery and the JavaScript constructor pattern, we'll examine DOM selection, traversal, and manipulation; in addition, an introduction to Agile methodology is presented on this day. In Class 3 we'll explore jQuery events, effects, delegation, and principles of code modularity. In Class 4 the practical applications of typography and HTML templates are covered, ES6 template literals are presented, and a 3rd-party templating library is introduced ([Handlebars](http://handlebarsjs.com)). Class 5 is a form-building workshop that brings it all together and gives students an opportunity to apply their skills to the discussion and implementation of a new (old) problem: HTML forms.
 
-##### Weeks 1 and 2 (View) Learning Objectives
 
-* Managing the view layer: Students will construct and manage interactive, client-side websites by creating and altering the Document Object Model through selection, traversal, and manipulation.
-
-### Weeks 3 and 4: Model
+### Module 2: The Back End (Classes 6 - 10)
 
 ***The focus of this week is on the MVC model layer through the use of Node.js and PostgreSQL, providing students their first hands-on interaction with a full-stack application.***
 
 The Model module begins in Class 6 with an introduction to the use of AJAX and JSON in the contexts of both the Web Request/Response Cycle (WRRC) and locally stored data files. In addition, the ES6 `let` and `const` variable declarations are presented on this day. The primary jQuery AJAX methods used during this week are **$.ajax(), $.get(), $.getJSON()**. Class 7 is an introduction to server-side code using Node.js, NPM, and Express. In Class 8 students are introduced to CRUD, persistence, and database concepts and get their first exposure to PostgreSQL. Class 9 focuses on more advanced SQL topics including joins and relations. Class 10 is an introduction to concepts of functional programming via the use of the JavaScript array methods **.map(), .filter(), .reduce()**.
 
-##### Weeks 3 and 4 (Model) Learning Objectives
+### Module 3: Full-Stack Applications (Classes 11-15)
 
-* Students will write a model layer in their applications that accesses and transforms persisted client-side data,  conforming to common WRRC, FP, and CRUD conventions.
+***The focus of these final five classes is the creation of a full-stack application using [EJS](http://ejs.co/) for server-side templating. Students will create a book collection, which will eventually include the ability for a user to search for a book by title or author and receive search results from the Google Books API. Students will be able to read and create resources, with exposure to updating and deleting resources in class 14. The module will conclude with a kickoff to final projects.***
 
-### Weeks 5 and 6: Controller
+Throughout this module, students will work with a partner to build a full-stack book application. Class 11 will focus on a GET request for all resources from a student-seeded database. These resources will be displayed to the user through the use of sever-side templating. Class 12 will focus on selecting a single resource from the list and viewing the details in a new view. Class 13 will focus on building an HTML5 form with method and action attributes so users can manually enter a new resource, which will be added to the database. Class 14 will focus on adding the ability to search by title or author and initiate a request to the Google Books API. The first ten results will be displayed to the user and, through the use of a hidden form, the user can select a single book to be added to the database. Class 15 is for review and the transition into Final Projects.
 
-***The focus of this week is the controller layer of an MVC application.  Through the use of [Page.js](https://visionmedia.github.io/page.js/), students will be introduced to client-side routing, deployments and development environments, managing application state, and general OOP based modularity & refactoring.***
+### Module 4: Final Projects (Classes 16-20)
 
-The Controller module begins in Class 11 with an introduction to single-page applications (SPAs) and client-side routing concepts using the 3rd-party library Page.js. In Class 12, the focus is on rounding out and solidifying HTTP and REST concepts, and token-based access of data from external APIs. Class 13 is centered on the concepts of production environments and deployment, culminating in deployment of the blog application and the booklist on Heroku. Class 14 is a deeper examination into the role of middleware in the management of application state, specifically getting/setting URL parameters with Page.js via its `context` object. Class 15 is for review and also the transition into Project Week.
-
-##### Weeks 5 and 6 (Controller) Learning Objectives
-
-* Students will finalize their MVC apps by:
-
-    * completing our Single-Page App pattern with routing and controllers
-
-    * integrating with 3rd-party REST APIs to display external data
-
-    * and deploying to production environments with a pre-existing server.
-
-
-### Weeks 7-8: Project Week
-
-In teams, students create a single page web application that demonstrates command of all of the primary concepts discussed in this course.  Overall, the application should make API calls, have dynamic functionality, and display a well-factored MVC architecture. Groups should be generally be self-managing. They will need to have proper Agile processes in place in order to keep their project in scope and delivered on time.
-
-[-top-](#top)
-
+In teams, students create a full-stack web application that demonstrates command of all of the primary concepts discussed in this course. Overall, the application should make API calls, have dynamic functionality, and display a well-factored full-stack architecture. You act as a guide and support system for students as many project groups hit the occasional roadblocks and need assistance throughout the week. Otherwise, groups should be generally be self-managing. They will need to have proper Agile processes in place in order to keep their project in scope and delivered on time. See the project guidelines for more details. (TODO: Add the link to the project guidelines doc)
 
 ---
 
