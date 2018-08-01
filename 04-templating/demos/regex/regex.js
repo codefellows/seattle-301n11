@@ -1,3 +1,6 @@
+GREAT Resource for playing around and learning RegEx
+https://regex101.com/
+
 Pattern match text
 [a-zA-Z] -> match any one character, upper case or lower case, order doesn’t matter
 Shorthand: \w
