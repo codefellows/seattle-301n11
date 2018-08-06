@@ -3,9 +3,9 @@
 ## Overview
 <!-- Provide a general overview of the daily concepts and processes that will be covered in lectures and labs -->
 
-*Here we go! Onwards, into Week 2 and a study of the* **Model** *layer. Asynchronous connections... and standardized data formats? This all sounds like a serious upgrade to our application logic! Let's see what you can do with the blog app and your portfolios once we apply these concepts!*
+*Here we go! Onwards, into Module 2 and a study of the* **Model** *layer. Asynchronous connections... and standardized data formats? This all sounds like a serious upgrade to our application logic! Let's see what you can do with the blog app and your portfolios once we apply these concepts!*
 
-*This week, you will construct a model layer in your application that accesses and transforms persisted data, conforming to common WRRC, FP, and CRUD conventions.*
+*In the next module, you will construct a model layer in your application that accesses and transforms persisted data, conforming to common WRRC, FP, and CRUD conventions.*
 
 *Starting with an introduction to the WRRC (web request response cycle), we will learn how HTTP works and how to accomplish simple GET requests through the use of AJAX and jQuery.*
 
