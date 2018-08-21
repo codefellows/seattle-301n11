@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grocery List</title>
+  </head>
+  <body>
+    <h1>My Grocery List</h1>
+    <ul>
+      <% items.forEach(item => { %>
+        <li><%= item  %></li>
+      <% }) %>
+    </ul>
+  </body>
+</html>
+
+<!-- After writing list.ejs and details.ejs, refactor list.ejs with conditional rendering: -->
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Grocery List</title>
+  </head>
+  <body>
+    <h1>My Grocery List</h1>
+    <ul>
+      <% items.forEach(item => { %>
+        <li>
+          <p>Item: <%= item.name  %></p>
+          <% if (item.quantity) { %>
+            <p>Quantity: <%= item.quantity  %></p>
+          <% } %>
+        </li>
+      <% }) %>
+    </ul>
+  </body>
+</html> -->
