@@ -7,9 +7,7 @@ Today is the first day of our new project, a mobile-only book collection. You wi
 
 ## Daily Plan
 
-- Warm-up exercise
 - Review code challenges
-- Full-stack application skeleton scaffolding
 - Server-side templating
 - Code Demo
 - Lab Preview
