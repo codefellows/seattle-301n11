@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <% include ../partials/head %>
+  </head>
+  <body>
+    <% include ../partials/header %>
+    <main>
+      <section class="task-view container">
+          <ul id="task-list">
+            <li class="task-item" data-id="<%= task.id %>">
+              <h4>Task: <%= task.title %></h4>
+              <p>Desciption: <%= task.description %></p>
+              <p>Contact person: <%= task.contact %></p>
+              <p>Completion status: <%= task.status %></p>
+              <p>Category: <%= task.category %></p>
+              <p>Complete this task by <%= task.due %></p>
+            </li>
+          </ul>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script src="/scripts/index.js" type="text/javascript"></script>
+    <script src="/scripts/models/task.js" type="text/javascript"></script>
+    <script src="/scripts/views/task-view.js" type="text/javascript"></script>
+    <script src="/scripts/views/error-view.js" type="text/javascript"></script>
+  </body>
+</html>

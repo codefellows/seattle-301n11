@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <% include ../partials/head %>
+  </head>
+  <body>
+    <% include ../partials/header %>
+    <main>
+      <section class="create-view container">
+        <h2 class="view-title">Add a New Task</h2>
+        <form id="create-form" action="/add" method="post">
+          <input type="text" name="title" placeholder="Task Name" value="test">
+          <textarea name="description" placeholder="Description of the task" cols="30" rows="10" value="test"></textarea>
+          <input type="text" name="category" placeholder="Category" value="test">
+          <input type="text" name="contact" placeholder="Contact Person" value="test">
+          <input type="text" name="status" placeholder="Completion Status" value="test">
+          <button type="submit">Add This Task</button>
+        </form>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </body>
+</html>

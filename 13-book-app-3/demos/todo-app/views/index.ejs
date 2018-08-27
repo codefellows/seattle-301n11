@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <% include ./partials/head %>
+  </head>
+  <body>
+    <main>
+      <% include ./partials/header %>
+      <section class="task-view container">
+          <ul id="task-list">
+            <% results.forEach(task => { %>
+              <li class="task-item" data-id="<%= task.id %>">
+                <h4>Task: <%= task.title %></h4>
+                <p>Completion status: <%= task.status %></p>
+                <a href="/tasks/<%= task.id%>">View Details</a>
+              </li>
+            <% }) %>
+          </ul>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script src="/scripts/index.js" type="text/javascript"></script>
+    <script src="/scripts/models/task.js" type="text/javascript"></script>
+    <script src="/scripts/views/task-view.js" type="text/javascript"></script>
+    <script src="/scripts/views/error-view.js" type="text/javascript"></script>
+  </body>
+</html>
