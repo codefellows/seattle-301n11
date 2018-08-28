@@ -5,6 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
     "ejs": "^2.6.1",
     "express": "^4.16.2",
     "pg": "^7.4.0"
