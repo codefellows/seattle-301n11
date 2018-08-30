@@ -1,0 +1,141 @@
+p {
+  padding: 3vw;
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+  width: 50%;
+}
+
+h3 {
+  font-size: 4vw;
+}
+
+p {
+  font-size: 3vw;
+  line-height: 1.5;
+  padding: 1vw;
+}
+
+h3, p {
+  text-align: center;
+  padding: 2vw;
+}
+
+main > p {
+  text-align: inherit;
+}
+
+span {
+  color: #fff;
+}
+
+#book-list {
+  padding-top: 5vw;
+}
+
+#book-list li {
+  background: #ccc;
+  box-shadow: 5px 5px 15px #444;
+  padding-top: 5vw;
+  border-radius: 3px;
+  margin-bottom: 10vw;
+}
+
+.book-container img {
+  margin-bottom: 2vw;
+  border: solid 5px #fff;
+  border-radius: 3px;
+}
+
+.book-container p {
+  padding: .5vw 2vw 10vw 2vw;
+  font-style: italic;
+  font-size: 3vw;
+  color: #888;
+  line-height: 1vw;
+}
+
+.book-container span {
+  display: block;
+  margin-bottom: 5vw;
+  padding-bottom: 0;
+  color: #444;
+  font-size: 3vw;
+  font-style: italic;
+}
+
+.book-container p:last-child {
+  margin-top: 0;
+  margin-bottom: 5vw;
+  color: #444;
+  line-height: 6vw;
+  font-style: normal;
+  border-radius: 3px;
+  max-height: 15vw;
+}
+
+.book-container .desc {
+  overflow: auto;
+}
+
+.book-container h3 {
+  color: #fff;
+  text-decoration: none;
+  font-size: 4vw;
+  line-height: 6vw;
+  text-shadow: 1px 1px 1px #444;
+}
+
+.book-container.detail-view {
+  background: #ccc;
+  box-shadow: 5px 5px 15px #444;
+  padding-top: 5vw;
+  border-radius: 3px;
+  width: 90%;
+  margin: 10vw auto;
+}
+
+.detail-view span {
+  text-align: center;
+}
+
+.book-container.detail-view .isbn {
+  color: #888;
+  font-style: italic;
+}
+
+.book-container.detail-view .desc {
+  width: 80%;
+  margin: 5vw auto;
+  padding: 3vw;
+  background: #ddd;
+  color: #444;
+  border-radius: 3px;
+  line-height: 6vw;
+  font-size: 3vw;
+  font-style: normal;
+}
+
+.detail-button a {
+  padding: 4vw 10vw;
+  font-size: 3.5vw;
+  background: #000;
+  color: #fff;
+  border-radius: 3px;
+  font-style: normal;
+}
+
+.search-results li {
+  margin: 10vw;
+  padding: 5vw;
+  background: #ccc;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 5px 5px 15px #444;
+}
+
+.search-results button {
+  width: 100%;
+}

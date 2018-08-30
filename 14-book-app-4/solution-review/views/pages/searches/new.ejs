@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include ../../partials/head %>
+    <link rel="stylesheet" href="/styles/modules/searches/new.css">
+  </head>
+  <body>
+    <% include ../../partials/header %>
+    <main>
+        <h4 class="view-title">Search by Title or Author</h4>
+        <form id="create-form" action="/searches" method="post">
+          <input type="text" name="search" placeholder="Enter a title or author" required>
+          <fieldset>
+            <label for="title"> 
+              <span>Title</span>
+              <input type="radio" id="title" name="search" value="title" required>
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="author">
+              <span>Author</span>
+              <input type="radio" id="author" name="search" value="author" required>
+            </label>
+          </fieldset>
+          <button class="lng-btn" type="submit">Search the Google Books API</button>
+        </form>
+    </main>
+    <% include ../../partials/footer %>
+  </body>
+</html>

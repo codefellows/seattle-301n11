@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include ../../partials/head %>
+    <link rel="stylesheet" href="/styles/modules/books/show.css">
+  </head>
+  <body>
+    <% include ../../partials/header %>
+    <main>
+      <% if(message) { %>
+        <h4><%= message %></h4>
+      <% } %>
+      <section class="book-container detail-view">
+          <img src=<%= book.image_url %>>
+        <% if (book.subtitle) { %>
+          <h3><%= book.title %>: <%= book.subtitle %></h3>
+        <% } else { %>
+          <h3><%= book.title %></h3>
+        <% } %>
+          <span><%= book.author %></span>
+          <p class="desc"><%= book.description %></p>
+          <p class="isbn">ISBN: <%= book.isbn %></p>        
+      </section>
+    </main>
+    <% include ../../partials/footer %>
+  </body>
+</html>

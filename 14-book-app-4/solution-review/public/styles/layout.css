@@ -1,0 +1,142 @@
+header {
+  background-color: #000;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 0px 4px 0px #444;
+}
+
+header div {
+  height: 10vw;
+}
+
+header img {
+  display: inline-block;
+  max-width: 10%;
+  padding-left: 5%;
+}
+
+img {
+  width: 50%;
+}
+
+li {
+  margin: 5vw;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #000;
+  height: 10vw;
+  width: 100%;
+  color: #fff;
+}
+
+form {
+  width: 80%;
+  margin: 2vw auto;
+}
+
+input, textarea {
+  display: block;
+  margin: 2vw auto;
+  padding: 1vw;
+  width: 80%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  width: 80%;
+  padding: 3vw;
+  margin-bottom: 5vw;
+  font-size: 3vw;
+  border: none;
+  border-radius: 3px;
+  transition: 350ms all;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  background: #000;
+  color: #fff;
+}
+
+#create-form {
+  margin-top: 8vw;
+  margin-bottom: 15vw;
+}
+
+#create-form fieldset span {
+  margin-right: 3vw;
+}
+
+button {
+  display: block;
+  font-size: 4vw;
+  margin: 0 auto;
+  padding: 2vw;
+  width: 40%;
+}
+
+button[type="submit"] {
+  padding: 3vw;
+  background: #000;
+  color: #fff;
+  font-size: 4vw;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type="submit"].lng-btn {
+  width: 88%;
+  padding: 4vw;
+  font-size: 3vw;
+}
+
+fieldset {
+  float: left;
+  width: 87.5%;
+  box-sizing: border-box;
+  margin-bottom: 5vw;
+  margin-left: 5vw;
+  padding: 2vw 5vw 2vw 0vw;
+  text-align: left;
+  background: #ccc;
+  color: #444;
+  border-radius: 3px;
+}
+
+fieldset label {
+  font-size: 4vw;
+}
+
+h2 {
+  font-size: 5vw;
+  padding: 2vw;
+  text-align: center;
+}
+
+h3 {
+  font-size: 4vw;
+  color: #444;
+  text-decoration: underline;
+}
+
+h4 {
+  font-size: 4vw;
+  padding: 5vw 2vw;
+  color: #ccc;
+  background: #444;
+  text-align: center;
+  text-decoration: none; 
+}

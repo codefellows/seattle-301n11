@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include ../../partials/head %>
+    <link rel="stylesheet" href="/styles/modules/searches/show.css">
+    <link rel="stylesheet" href="/styles/modules/books/show.css">
+  </head>
+  <body>
+    <% include ../../partials/header %>
+    <main>
+      <h4>Search Results</h4>
+      <ul class="search-results">
+        <% results.forEach(book => { %>
+          <li data-book-id="<%= book.isbn %>">
+            <div class="book-container">
+              <img src=<%= book.image_url %>>
+              <section>
+              <% if (book.subtitle) { %>
+                <h3><%= book.title %>: <%= book.subtitle %></h3>
+              <% } else { %>
+                <h3><%= book.title %></h3>
+              <% } %>
+                <span><%= book.author %></span>
+                <p class="desc"><%= book.description %></p>        
+              </section>
+            </section>
+            <form id="hide-me" action="/books" method="post">
+              <input type="text" name="title" value="<%= book.title %>">
+              <input type="text" name="author" value="<%= book.author %>">
+              <input type="text" name="isbn" value="<%= book.isbn %>">
+              <input type="text" name="image_url" value="<%= book.image_url %>">
+              <textarea name="description" value="<%= book.description %>" cols="30" rows="5"></textarea>
+              <button id="show-me" type="submit">Add to Database</button>
+            </form>
+          </li>
+        <% }) %>
+      </ul>
+    </main>
+    <% include ../../partials/footer %>
+  </body>
+</html>

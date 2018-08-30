@@ -1,0 +1,29 @@
+h2 {
+  
+}
+
+input[type=radio] {
+  display: inline-block;
+  font-size: 100px;
+  width: auto;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  font-size: 3vw;
+  margin-right: 2vw;
+  margin-left: 5vw;
+}
+
+button {
+  font-size: 3vw;
+  width: 80%;
+}
+
+input::placeholder, textarea::placeholder {
+  font-size: 3vw;
+  color: #000;
+}

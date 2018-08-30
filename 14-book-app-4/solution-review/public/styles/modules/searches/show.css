@@ -1,0 +1,7 @@
+#hide-me input, #hide-me textarea {
+  display: none;
+}
+
+form button {
+  display: inline-block;
+}

@@ -1,0 +1,55 @@
+header div {
+  max-width: 80%;
+  padding: 2vw;
+}
+
+h1 {
+  color: #fff;
+  font-size: 5vw;
+  line-height: 10vw;
+}
+
+nav {
+  background-color: #888;
+  float: right;
+  width: 100%;
+}
+
+nav ul {
+  display: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav li {
+  margin: 1.5vw 0;
+  padding: 2vw 0;
+  cursor: pointer;
+}
+
+nav li a {
+  font-size: 3.5vw;
+}
+
+nav:hover ul {
+  background-color: #000;
+  opacity: .8;
+  display: block;
+  padding: 1.5vw;
+  position: absolute;
+  right: 0;
+}
+
+nav li:hover {
+  cursor: pointer;
+}
+
+.icon-menu {
+  color: #fff;
+  font-size: 8vw;
+  line-height: 10vw;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}

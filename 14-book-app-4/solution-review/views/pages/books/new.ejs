@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include ../../partials/head %>
+    <link rel="stylesheet" href="/styles/modules/books/new.css">
+  </head>
+  <body>
+    <% include ../../partials/header %>
+    <main>
+      <h4>Add a New Book</h4>
+      <form id="create-form" action="/books" method="post">
+        <input type="text" name="title" placeholder="Title">
+        <input type="text" name="author" placeholder="Author">
+        <input type="text" name="isbn" placeholder="ISBN">
+        <input type="text" name="image_url" placeholder="Image URL">
+        <textarea name="description" placeholder="Description" cols="30" rows="5"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <% include ../../partials/footer %>
+  </body>
+</html>

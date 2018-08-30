@@ -1,0 +1,14 @@
+footer ul {
+  display: table;
+  width: 100%;
+}
+
+footer li {
+  flex: 1;
+  display: table-cell;
+  line-height: 10vw;
+}
+
+footer li span {
+  font-size: 3vw;
+}

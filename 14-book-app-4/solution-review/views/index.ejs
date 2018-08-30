@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include ./partials/head %>
+    <link rel="stylesheet" href="/styles/modules/books/show.css">
+  </head>
+  <body>
+    <% include ./partials/header %>
+    <main>
+      <h4>Saved Books</h4>
+      <ul id="book-list">
+        <% books.forEach(book => { %>
+          <li class="book-items" data-book-id="<%= book.id %>">
+            <div class="book-container">
+              <img src=<%= book.image_url %>>
+              <% if (book.subtitle) { %>
+                <h3><%= book.title %>: <%= book.subtitle %></h3>
+              <% } else { %>
+                <h3><%= book.title %></h3>
+              <% } %>
+              <p><%= book.author %></p>
+              <p class="detail-button"><a href="/books/<%= book.id %>">View Details</a></p>
+            </div>
+          </li>
+        <% }) %>
+      </ul>
+    </main>
+    <% include ./partials/footer %>
+  </body>
+</html>
