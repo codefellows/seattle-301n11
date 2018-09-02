@@ -1,4 +1,4 @@
-# Exam Cheat Sheet
+# Exam Tips
 
 - [ ] Take break
 - [ ] Be 100% sure before answering
