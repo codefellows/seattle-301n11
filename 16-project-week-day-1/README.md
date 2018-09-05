@@ -21,7 +21,7 @@ Here's the process that we'll be using for project week.
 
    Proposals, written or electronic, are due for review with the instruction team. First come, first served! After that, you are ready for the Launch Phase.
 
-  **Due by 8:30pm on the first day of Project Week**
+  **Due before following class**
 
 ## Launch Phase
 
